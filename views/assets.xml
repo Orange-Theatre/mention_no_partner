@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<odoo>	
+	<data>	
+		<template id="assets_backend" name="mention_no_partner_assets" inherit_id="web.assets_backend">
+			<xpath expr="." position="inside">
+				<script type="text/javascript" src="/mention_no_partner/static/src/js/mention_no_partner.js"/>
+			</xpath>
+		</template>
+	</data>
+</odoo>
